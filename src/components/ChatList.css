@@ -1,0 +1,5 @@
+.chat-list {
+    list-style: none;
+    overflow-y: auto;
+    flex-grow: 1;
+}

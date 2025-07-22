@@ -1,0 +1,11 @@
+.chat-welcome {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #ece5dd;
+}
