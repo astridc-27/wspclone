@@ -21,8 +21,15 @@ const chatData = [
     lastSeen: 'hoy a las 13:10',
     avatar: 'https://i.pravatar.cc/150?img=2',
     messages: [
-      { from: 'me', text: '¿Te paso los archivos?', time: '12:45' },
-      { from: 'María López', text: 'Sí, por favor.', time: '13:00' }
+      { from: 'Mr. Freeze', text: 'Cede a mis exigencias o cubrire Gotham con un invierno eterno.', time: '21:03' },
+      { from: 'me', text: 'Es diciembre. Solo estás describiendo diciembre.', time: '21:06' },
+      { from: 'Mr. Freeze', text: '¡Caerá nieve en Gotham!', time: '21:08' },
+      { from: 'me', text: 'Diciembre.', time: '21:08' },
+      { from: 'Mr. Freeze', text: '¡El hielo devastara la ciudad!', time: '21:09' },
+      { from: 'me', text: '¡DI-CIEM-BRE!', time: '21:10' },
+      { from: 'me', text: 'Vuelve en abril, cuando haga más calor. Entonces me preocuparé.', time: '21:12' },
+      { from: 'Mr. Freeze', text: '¿Lo prometes?', time: '21:15' },
+      { from: 'me', text: 'No.', time: '21:15' },
     ]
   },
   {

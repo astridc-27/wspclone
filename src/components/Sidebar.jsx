@@ -6,6 +6,7 @@ import { MdOutlineSettings } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import { LuCircleDashed } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa";
 import './Sidebar.css';
 
 function Sidebar({ chats }) {
