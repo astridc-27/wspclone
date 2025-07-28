@@ -1,6 +1,8 @@
 .chat-item {
-display: flex;
-    padding: 10px 20px;
+    display: flex;
+    padding: 5px 10px;
+    margin: 4px 8px;
+    border-radius: 7px;
     text-decoration: none;
     color: #e8e8e8;
     align-items: center;
@@ -15,13 +17,9 @@ display: flex;
     background-color: #3b3b3b;
 }
 
-.chat-item.active {
-    background-color: #3b3b3b;
-}
-
 .avatar {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

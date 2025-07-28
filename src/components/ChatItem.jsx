@@ -7,7 +7,7 @@ function ChatItem({ chat }) {
 
     return (
         <li>
-            <Link to={`/${chat.id}`} className={`chat-item ${chatId === chat.id ? 'active' : ''}`}>
+            <Link to={`/${chat.id}`} key={chat.id} className="chat-item">
                 <img src={chat.avatar} alt={`${chat.name} avatar`} className="avatar" />
                 <div className="chat-info">
                     <div className="chat-name">
