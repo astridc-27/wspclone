@@ -3,7 +3,7 @@ const chatData = [
         id: '1',
         name: 'Robin #2',
         lastSeen: 'hoy a las 18:20',
-        avatar: 'https://i.pravatar.cc/150?img=1',
+        avatar: '/robin2.jpg',
         messages: [
             { from: 'Robin #2', text: 'No quiero patrullar en Halloween a menos que sea absolutamente necesario.', time: '19:30' },
             { from: 'me', text: '¿Por qué no?', time: '19:31' },
@@ -19,7 +19,7 @@ const chatData = [
     id: '2',
     name: 'Mr. Freeze',
     lastSeen: 'hoy a las 13:10',
-    avatar: 'https://i.pravatar.cc/150?img=2',
+    avatar: '/freeze.jpg',
     messages: [
       { from: 'Mr. Freeze', text: 'Cede a mis exigencias o cubrire Gotham con un invierno eterno.', time: '21:03' },
       { from: 'me', text: 'Es diciembre. Solo estás describiendo diciembre.', time: '21:06' },
