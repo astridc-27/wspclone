@@ -6,7 +6,7 @@ import { MdOutlineSettings } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import { LuCircleDashed } from "react-icons/lu";
-import { FaWhatsapp } from "react-icons/fa";
+import { PiListBold } from "react-icons/pi";
 import './Sidebar.css';
 
 function Sidebar({ chats }) {
@@ -24,6 +24,9 @@ function Sidebar({ chats }) {
     return (
         <aside className="sidebar">
             <nav className="sidebar-nav-vertical">
+                <button className="nav-btn" title="Navegación" >
+                    <PiListBold />
+                </button>
                 <button className="nav-btn active" title="Chats" >
                     <BiMessageRoundedDetail />
                 </button>
@@ -34,16 +37,10 @@ function Sidebar({ chats }) {
                     <LuCircleDashed />
                 </button>
                 <div className="sidebar-footer">
-                    <button className="settings-btn" title="Destacados" >
+                    <button className="settings-btn nav-btn" title="Ajustes" >
                         <MdOutlineSettings />
                     </button>
-                    <button className="settings-btn" title="Archivados" >
-                        <MdOutlineSettings />
-                    </button>
-                    <button className="settings-btn" title="Ajustes" >
-                        <MdOutlineSettings />
-                    </button>
-                    <img src="https://i.pravatar.cc/40" alt="Perfil" className="profile-pic" title="Perfil" />
+                    <img src="/profile.jpg" alt="Perfil" className="profile-pic" title="Perfil" />
                 </div>
             </nav>
 
