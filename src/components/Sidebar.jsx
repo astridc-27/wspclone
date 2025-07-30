@@ -22,7 +22,7 @@ function Sidebar({ chats }) {
     };
 
     return (
-        <aside className="sidebar">
+        <aside className={`sidebar ${window.innerWidth <= 768 && window.location.pathname !== '/' && window.location.pathname !== '' ? 'hidden-mobile' : ''}`}>
             <nav className="sidebar-nav-vertical">
                 <button className="nav-btn" title="Navegación" >
                     <PiListBold />

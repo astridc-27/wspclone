@@ -29,17 +29,24 @@ const chatData = [
       { from: 'me', text: '¡DI-CIEM-BRE!', time: '21:10' },
       { from: 'me', text: 'Vuelve en abril, cuando haga más calor. Entonces me preocuparé.', time: '21:12' },
       { from: 'Mr. Freeze', text: '¿Lo prometes?', time: '21:15' },
-      { from: 'me', text: 'No.', time: '21:15' },
+      { from: 'me', text: 'No.', time: '21:15' }
     ]
   },
   {
     id: '3',
-    name: 'Carlos Díaz',
+    name: 'Superman',
     lastSeen: 'ayer a las 22:50',
-    avatar: 'https://i.pravatar.cc/150?img=3',
+    avatar: '/superman.png',
     messages: [
-      { from: 'Carlos Díaz', text: '¿Terminaste el trabajo?', time: '21:40' },
-      { from: 'me', text: 'Sí, lo mandé por mail.', time: '22:00' }
+      { from: 'Superman', text: 'Tengo un problema.', time: '21:40' },
+      { from: 'Superman', text: 'Perry ha pedido que todos en el Planet se vacunen públicamente para demostrar que es seguro.', time: '21:40' },
+      { from: 'me', text: '¿Y?', time: '22:00' },
+      { from: 'Superman', text: '¡Las agujas no pueden atravesar mi piel!', time: '22:02' },
+      { from: 'Superman', text: '¿Qué hago?', time: '22:03' },
+      { from: 'me', text: 'Puedo darte una pequeña cantidad de kriptonita. Deberia debilitarte lo suficiente como para que te inyecten.', time: '22:10' },
+      { from: 'Superman', text: 'Eso seria genial. Eres un gran amigo.', time: '22:12' },
+      { from: 'me', text: 'Sí, soy el mejor.', time: '22:15' },
+      { from: 'me', text: '¿A qué hora es esto? No quiero perderme el verte desmayarte en televisión nacional por una aguja en el brazo.', time: '22:16' }
     ]
   }
 ];
