@@ -82,10 +82,11 @@
     max-width: 300px;
     min-width: 300px;
     background: #2b2b2b;
+    border-right: 1px solid #191919;
 }
 
 .sidebar-header {
-padding: 15px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +99,7 @@ padding: 15px;
 }
 
 .sidebar-icons .icon {
-font-size: 1.2rem;
+    font-size: 1.2rem;
     margin-left: 20px;
     cursor: pointer;
     color: #e8e8e8;
@@ -126,9 +127,9 @@ font-size: 1.2rem;
 }
 
 .search-icon {
-position: absolute;
-    left: 25px;
-    top: 18px;
+    position: absolute;
+    left: 23px;
+    top: 16px;
     font-size: 1rem;
     color: #949494;
 }

@@ -1,8 +1,7 @@
 import React from "react";
 import "./ChatHeader.css";
-import { IoMdCamera } from "react-icons/io";
-import { IoMdMic } from "react-icons/io";
-import { FaSearch } from "react-icons/fa";
+import { BsCameraVideo, BsTelephone } from "react-icons/bs";
+import { LiaSearchSolid } from "react-icons/lia";
 
 function ChatHeader({ chat }) {
     return (
@@ -13,9 +12,11 @@ function ChatHeader({ chat }) {
                 <p>{chat.lastSeen}</p>
             </div>
             <div className="chat-header-icons">
-                <span className="icon camera"><IoMdCamera /></span>
-                <span className="icon microphone"><IoMdMic /></span>
-                <span className="icon search"><FaSearch /></span>
+                <div className="header-icons-box">
+                    <span className="icon-box camera"><BsCameraVideo /></span>
+                    <span className="icon-box"><BsTelephone /></span>
+                </div>
+                <span className="search"><LiaSearchSolid /></span>
             </div>
         </header>
     );
