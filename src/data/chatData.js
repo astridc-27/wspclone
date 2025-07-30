@@ -2,7 +2,7 @@ const chatData = [
     {
         id: '1',
         name: 'Robin #2',
-        lastSeen: 'hoy a las 18:20',
+        lastSeen: 'hoy a las 20:15',
         avatar: '/robin2.jpg',
         messages: [
             { from: 'Robin #2', text: 'No quiero patrullar en Halloween a menos que sea absolutamente necesario.', time: '19:30' },
@@ -18,7 +18,7 @@ const chatData = [
     {
     id: '2',
     name: 'Mr. Freeze',
-    lastSeen: 'hoy a las 13:10',
+    lastSeen: 'hoy a las 21:25',
     avatar: '/freeze.jpg',
     messages: [
       { from: 'Mr. Freeze', text: 'Cede a mis exigencias o cubrire Gotham con un invierno eterno.', time: '21:03' },

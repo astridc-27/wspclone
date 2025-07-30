@@ -8,8 +8,8 @@ import './ChatInput.css';
 function ChatInput({ newMessage, onChange, onSend, onKeyPress }) {
   return (
         <div className="chat-input">
-            <button className="icon emoji"><GiBatMask /></button>
-            <button className="icon attach"><GrAttachment /></button>
+            <button className="icon input-icon"><GiBatMask /></button>
+            <button className="icon input-icon"><GrAttachment /></button>
             <input 
             type="text" 
             placeholder="Escribe un mensaje"
@@ -20,7 +20,7 @@ function ChatInput({ newMessage, onChange, onSend, onKeyPress }) {
             <button className="send-btn" onClick={onSend} title="Enviar mensaje">
                 <IoSendSharp />
             </button>
-            <button className="icon mic"><IoMdMic /></button>
+            <button className="icon input-icon"><IoMdMic /></button>
         </div>
     );
 }

@@ -2,7 +2,8 @@
   padding: 20px;
   overflow-y: auto;
   flex: 1;
-  background-color: #efeae2;
+  background: url(/fondo.jpeg) repeat center center;
+  background-size: cover;
 }
 
 .message-bubble {
